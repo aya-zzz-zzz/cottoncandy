@@ -17,5 +17,5 @@
 ![image](https://i.imgur.com/0Z3h6eN.jpeg)
 
 ## Interstellar_1's Tidal Light theme
-https://codeberg.org/Interstellar_1/Tidal-Light
+https://github.com/InterstellarOne/Tidal-Light/tree/main](https://github.com/InterstellarOne/Tidal-Light/tree/main
 ![image](https://codeberg.org/Interstellar_1/Tidal-Light/raw/branch/main/assets/cover.png)
