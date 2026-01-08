@@ -3935,8 +3935,8 @@ transform: scale(1.02) translatex(.6em) translatey(-.1em);
 }}
 
 
-div._suggestedItemContainer_35ea483:nth-of-type(20),._playQueueItemsList_2574b1d.ReactVirtualized__List.ReactVirtualized__Grid > .ReactVirtualized__Grid__innerScrollContainer{
-	margin-bottom: 9em;
+div._suggestedItemContainer_35ea483:nth-of-type(20),._playQueueItemsList_2574b1d.ReactVirtualized__List.ReactVirtualized__Grid > .ReactVirtualized__Grid__innerScrollContainer,._artistBio_1772ffa, ._lyricsProvider_56c7fb5{
+	margin-bottom: 19em!important;
 }
 
 
