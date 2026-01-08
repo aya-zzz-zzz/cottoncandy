@@ -1844,12 +1844,12 @@ div._searchField_b2eb7f7:focus-within input {
         backdrop-filter: blur(6px);
     }
 	._explicitBadge_b93510b._badge_57d1ccb > svg > use{
-		filter: sepia(1) hue-rotate(140deg) contrast(1) opacity(1) brightness(.88) saturate(1.0) invert(0) opacity(1)!important;
+		filter: sepia(1) hue-rotate(350deg) contrast(1) opacity(1) brightness(.88) saturate(1.0) invert(0) opacity(1)!important;
 fill: #a10000;
 transform: translatey(-.05em);
 }
 	i > svg{
-			filter: sepia(1) hue-rotate(235deg) contrast(1) opacity(1) brightness(.90) saturate(6.0) invert(0) opacity(1)!important;
+			filter: sepia(1) hue-rotate(155deg) contrast(1) opacity(1) brightness(.90) saturate(2.7) invert(0) opacity(1)!important;
 fill: #a10000;
 	}
 
@@ -3969,7 +3969,7 @@ min-height: 100vh
 	min-height: 100vh
 }
 
-div._suggestedItemContainer_35ea483:nth-of-type(20),._playQueueItemsList_2574b1d.ReactVirtualized__List.ReactVirtualized__Grid > .ReactVirtualized__Grid__innerScrollContainer,._artistBio_1772ffa, ._lyricsProvider_56c7fb5,._dropContainer_2e280ea {
+div._suggestedItemContainer_35ea483:nth-of-type(20),._artistBio_1772ffa, ._lyricsProvider_56c7fb5,._dropContainer_2e280ea {
     
 	margin-bottom: 19em!important;
 }
