@@ -799,9 +799,9 @@ background-clip: text;
 	padding-bottom: 0em;
     border-style: solid;
     border-width: 2px;
-     border-image: linear-gradient(0deg, #ffa8ee00, #e0f9ff09, #9380ff14, #9380ff14, #e0f9ff09, #ffa8ee00) 1;
+     border-image: linear-gradient(0deg, #ffa8ee00, #e0f9ff09, #9380ff14, #9380ff14, #e0f9ff09, #ffa8ee00)1;
     box-shadow: 0px 0px 2em #ff00cb29;
-	margin-bottom: 2em;
+	margin-bottom: -4em;
 }
 [data-test-page-name="playlist"]{
     ._defaultStyles_a1b9da9 > div{
@@ -3456,16 +3456,13 @@ filter: opacity(0);
 
 
 	#main {
-    
-    padding-top: 5em;
-    padding-bottom: var(--miniPlayerHeight);
-    background-color: var(--bgeneral);
+    padding-top: 4.4em;
 }
 
 .mainContent.for-cypress__react-router--loaded{
 	 padding-top: 0em;
+	min-height: 104%!important;
 }
-
 
 
 
