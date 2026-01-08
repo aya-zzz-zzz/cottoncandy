@@ -6,7 +6,7 @@
 originally an older version of Interstellar_1's very nice light theme but i (aya) edited the colors and added/messed-up
 some stuff.
 
-last updated 1/8/26"
+last updated 12/19/25"
 }
 */
 [data-test-page-name="album"]{
@@ -32,7 +32,13 @@ last updated 1/8/26"
 :root{
 
    /*button color*/
+	--darkreader-text--wave-color-solid-contrast-fill: #150225!important;
+	    --darkreader-bg--wave-color-solid-rainbow-red-darkest: #b8c0ff;
+	--darkreader-text--wave-color-solid-contrast-darkest: #240d45!important;
+	--darkreader-background-1f1415: #ffa8ed;
+	    --darkreader-bg--wave-color-solid-rainbow-red-fill: #ffa8ed;
 	--darkreader-bg--wave-color-solid-base-brightest: #ffa8ed;
+	--darkreader-background-ff4242: #ffa8ed;
         --wave-color-opacity-contrast-fill-thin: #b8c8ffe5 !important;
         --wave-color-solid-accent-darker: #b5dbffae !important;
         --wave-color-solid-rainbow-red-darkest: #ffc7eeef !important;
@@ -181,7 +187,7 @@ tr._rowContainer_ebb4cfc:hover{
          color: rgba(6, 0, 15, 0.805);
         text-decoration: none;
     }
-}
+}fcdghdgdgd
 /* Card background */
 
 /* Card background hover colour */
@@ -237,26 +243,19 @@ fill: #530000;
 			filter: sepia(1) hue-rotate(15deg) contrast(1) opacity(1) brightness(.90) saturate(1.0) invert(0) opacity(1)!important;
 fill: #a10000;
 	}
-	
 }
-._imageButton_e28d5a2._medium_c24bed2._destructive_7351143._button_94c5125
-,._button_538cfb3._primary_7ac4b44._medium_c24bed2._button_94c5125{
-     [data-wave-color="textDefault"] {
-        color: #000a19 !important;
-    }
-    --wave-color-solid-rainbow-red-darkest: #ffa5f8ef !important;
-}
+
 
 /*edit playlist*/
-
-._imageButton_e28d5a2._fileInputContainer_eda6f2a{
-    background-color: #00f0;
+._imageButton_e28d5a2._medium_c24bed2._destructive_7351143._button_94c5125:hover{
+	background-color: #ffa5f7;
 }
+
 ._dialog_148b5df{
-    background: linear-gradient(190deg, #bab5ffb3, #d7c6ffbd, #fbb4ffad);
+    background: linear-gradient(190deg, #bab5ffb3, #e1c6ffbd, #faadffc4);
   backdrop-filter: blur(2em);
     backdrop-filter: blur(49px);
-        border-color: #1c003252;
+        border-color: #1c003200;
 }
 ._label_49e75fe{
     background-color: #b0a3ff;
@@ -284,7 +283,6 @@ fill: #a10000;
 }
 ._field_18de978._textArea_2c6dc77._textarea_06faedd{
     background-color: #967eff38;
-
 }
 }
 
@@ -298,6 +296,7 @@ fill: #a10000;
  row-gap: 1.3em;
   column-gap: 1em;
 }
+
 
 [data-track--page-id="mycollection_albums"]
 ,
@@ -799,9 +798,9 @@ background-clip: text;
 	padding-bottom: 0em;
     border-style: solid;
     border-width: 2px;
-     border-image: linear-gradient(0deg, #ffa8ee00, #e0f9ff09, #9380ff14, #9380ff14, #e0f9ff09, #ffa8ee00)1;
+     border-image: linear-gradient(0deg, #ffa8ee00, #e0f9ff09, #9380ff14, #9380ff14, #e0f9ff09, #ffa8ee00) 1;
     box-shadow: 0px 0px 2em #ff00cb29;
-	margin-bottom: -4em;
+	margin-bottom: 2em;
 }
 [data-test-page-name="playlist"]{
     ._defaultStyles_a1b9da9 > div{
@@ -2469,6 +2468,7 @@ color: #170024;
 }
 
 
+
 /*SETTINGS*/
 ._container_b4f1e20._fillDark_a1e5896 > div,
 ._container_9a0abb9 {
@@ -2497,6 +2497,22 @@ color: #170024;
     background-color: #71afffc7;
     color: #170024;
 }
+._secondary_ff6dcd8{
+	background-color: #00000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ._select_ef84104 {
@@ -2511,7 +2527,6 @@ color: #170024;
 svg#lastfm path {
     fill: #ffb0f8;
 }
-
 
 
 
@@ -3456,13 +3471,16 @@ filter: opacity(0);
 
 
 	#main {
-    padding-top: 4.4em;
+    padding-top: 5em;
+    padding-bottom: var(--miniPlayerHeight);
+    background-color: var(--bgeneral);
 }
 
 .mainContent.for-cypress__react-router--loaded{
 	 padding-top: 0em;
-	min-height: 104%!important;
+	min-height: 104%!Important;
 }
+
 
 
 
@@ -3925,9 +3943,11 @@ transform: scale(1.02) translatex(.6em) translatey(-.1em);
         grid-gap: .8em;
     }
 }}
-
-
-
+._backdrop_10dac34{
+	background-color: #00000000;
+	background-image: linear-gradient(10deg,#a2c4ffa3, #e791e1a8);
+	backdrop-filter: blur(2px);
+}
 
 /*play queue drag-drop indicator line*/
 ._indicateDropAfter_97961c7::before, ._indicateDropBefore_6e491bf::before {
