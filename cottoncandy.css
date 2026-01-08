@@ -39,6 +39,7 @@ last updated 12/19/25"
 	    --darkreader-bg--wave-color-solid-rainbow-red-fill: #ffa8ed;
 	--darkreader-bg--wave-color-solid-base-brightest: #ffa8ed;
 	--darkreader-background-ff4242: #ffa8ed;
+	--darkreader-bg--wave-color-solid-base-brightest: #ffa8ed;
         --wave-color-opacity-contrast-fill-thin: #b8c8ffe5 !important;
         --wave-color-solid-accent-darker: #b5dbffae !important;
         --wave-color-solid-rainbow-red-darkest: #ffc7eeef !important;
@@ -187,7 +188,7 @@ tr._rowContainer_ebb4cfc:hover{
          color: rgba(6, 0, 15, 0.805);
         text-decoration: none;
     }
-}fcdghdgdgd
+}
 /* Card background */
 
 /* Card background hover colour */
@@ -243,10 +244,27 @@ fill: #530000;
 			filter: sepia(1) hue-rotate(15deg) contrast(1) opacity(1) brightness(.90) saturate(1.0) invert(0) opacity(1)!important;
 fill: #a10000;
 	}
+	
+}
+._imageButton_e28d5a2._medium_c24bed2._destructive_7351143._button_94c5125
+,._button_538cfb3._primary_7ac4b44._medium_c24bed2._button_94c5125{
+     [data-wave-color="textDefault"] {
+        color: #000a19 !important;
+    }
+    --wave-color-solid-rainbow-red-darkest: #ffa5f8ef !important;
 }
 
 
+
+
+
+
 /*edit playlist*/
+._backdrop_10dac34{
+	background-color: #00000000;
+	background-image: linear-gradient(10deg,#a2c4ffa3, #e791e1a8);
+	backdrop-filter: blur(2px);
+}
 ._imageButton_e28d5a2._medium_c24bed2._destructive_7351143._button_94c5125:hover{
 	background-color: #ffa5f7;
 }
@@ -296,7 +314,6 @@ fill: #a10000;
  row-gap: 1.3em;
   column-gap: 1em;
 }
-
 
 [data-track--page-id="mycollection_albums"]
 ,
@@ -2468,7 +2485,6 @@ color: #170024;
 }
 
 
-
 /*SETTINGS*/
 ._container_b4f1e20._fillDark_a1e5896 > div,
 ._container_9a0abb9 {
@@ -2497,22 +2513,6 @@ color: #170024;
     background-color: #71afffc7;
     color: #170024;
 }
-._secondary_ff6dcd8{
-	background-color: #00000000;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ._select_ef84104 {
@@ -2527,6 +2527,7 @@ color: #170024;
 svg#lastfm path {
     fill: #ffb0f8;
 }
+
 
 
 
@@ -3470,7 +3471,7 @@ filter: opacity(0);
 }
 
 
-	#main {
+		#main {
     padding-top: 5em;
     padding-bottom: var(--miniPlayerHeight);
     background-color: var(--bgeneral);
@@ -3480,7 +3481,6 @@ filter: opacity(0);
 	 padding-top: 0em;
 	min-height: 104%!Important;
 }
-
 
 
 
@@ -3915,9 +3915,7 @@ transform: scale(1.02) translatex(.6em) translatey(-.1em);
 	[class="_tabPanelStyles_d7b9f59 react-tabs__tab-panel--selected"]{
 		transform: translatey(-2.3em)!important;
 }
-	#panel\:rl\:0 > div._dropContainer_2e280ea > div > div._playQueueItems_84488b2 > div.resize-triggers > div.expand-trigger > div{
-		min-height: 800333vh
-	}
+	
 	}
 }
 
@@ -3943,11 +3941,9 @@ transform: scale(1.02) translatex(.6em) translatey(-.1em);
         grid-gap: .8em;
     }
 }}
-._backdrop_10dac34{
-	background-color: #00000000;
-	background-image: linear-gradient(10deg,#a2c4ffa3, #e791e1a8);
-	backdrop-filter: blur(2px);
-}
+
+
+
 
 /*play queue drag-drop indicator line*/
 ._indicateDropAfter_97961c7::before, ._indicateDropBefore_6e491bf::before {
@@ -3984,4 +3980,14 @@ min-height: 100vh
 div._suggestedItemContainer_35ea483:nth-of-type(20),._artistBio_1772ffa, ._lyricsProvider_56c7fb5,._dropContainer_2e280ea {
     
 	margin-bottom: 19em!important;
+}
+
+._marketTooltipContainer_1qti9_1 {
+        background-color: #fff0;
+     background-image: linear-gradient(var(--rotate), #b0d3ffed, #ffabfad4);
+ animation: rotate-gradient 9s cubic-bezier(.33,.48,.63,.47) infinite;
+    color: #0a011fde;
+    box-shadow: #03033017 2px 2px 16px;
+   font-weight: 500;
+	
 }
