@@ -690,6 +690,8 @@ body {
     background: linear-gradient( #d2e2ffe6, #c9d4ffde);
 	._icon_77f3f89 > use{
 		fill: #170024;
+		
+	
 	}
 
 	
@@ -1675,10 +1677,7 @@ button._editCoverArtButton_686c19d ._overlay_fc03b57{
     border: 0!important;
     backdrop-filter: blur(1px);
 }
-._explicitBadge_b93510b._badge_57d1ccb > svg > use{
-    fill: rgb(0, 0, 0);
-    filter:  contrast(150%);
-}
+
 
 ._buttonTextOffset_a700b81.wave-text-caption-demi{
 
@@ -1844,12 +1843,12 @@ div._searchField_b2eb7f7:focus-within input {
         backdrop-filter: blur(6px);
     }
 	._explicitBadge_b93510b._badge_57d1ccb > svg > use{
-		filter: sepia(1) hue-rotate(350deg) contrast(1) opacity(1) brightness(.88) saturate(1.0) invert(0) opacity(1)!important;
+		filter: sepia(1) hue-rotate(350deg) contrast(1) opacity(1) brightness(.88) saturate(3.0) invert(0) opacity(1)!important;
 fill: #a10000;
 transform: translatey(-.05em);
 }
 	i > svg{
-			filter: sepia(1) hue-rotate(155deg) contrast(1) opacity(1) brightness(.90) saturate(2.7) invert(0) opacity(1)!important;
+			filter: sepia(1) hue-rotate(155deg) contrast(1) opacity(1) brightness(.90) saturate(1.5) invert(0) opacity(1)!important;
 fill: #a10000;
 	}
 
@@ -1927,10 +1926,6 @@ color: #170024;
 }
 
 
-
-._explicitBadge_b93510b._explicitIcon_1d32849._badge_57d1ccb > svg > use{
-    fill: #170024;
-}
 
 
 .css-10jmp6g {
