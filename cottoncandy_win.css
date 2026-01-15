@@ -4108,14 +4108,7 @@ transform: scale(1.02) translatex(.6em) translatey(-.1em);
 	}
  
 
-
-
-
-._buttonsContainer_fa46fce > ._button_98ab3d0 > ._icon_dc74fc7._icon_77f3f89 > use{
-	fill: #ff9cea
-}
-
-
+#footerPlayer > div._leftColumn_aaf28de > div._currentMediaItemDetails_dc0f159 > div._trackHeaderContainer_b72c901 > div._buttonsContainer_fa46fce > button._button_98ab3d0 > svg > use
 
 /*play queue drag-drop indicator line*/
 ._indicateDropAfter_97961c7::before, ._indicateDropBefore_6e491bf::before {
@@ -4185,4 +4178,12 @@ div._suggestedItemContainer_35ea483:nth-of-type(20),._artistBio_1772ffa, ._lyric
   display: flex;         /* Enables flexbox layout */
   justify-content: center; /* Centers horizontally along the main axis */
   align-items: center;   /* Centers vertically along the cross axis */
+}
+
+
+use[href="#general__heart"] {
+    filter: brightness(0);
+}
+._buttonsContainer_fa46fce > ._button_98ab3d0 > ._icon_dc74fc7._icon_77f3f89 > use{
+	fill: #ff91e8;
 }
