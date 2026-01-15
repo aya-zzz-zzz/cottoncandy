@@ -1,8 +1,8 @@
 /*
  { *
- "name": "cotton candy",
+ "name": "cotton candy - windows version",
 "author": "Interstellar_1, aya",
-"description": "light pink theme with blue accents for tidal luna, tested on windows-11 and mac-os-tahoe-preview
+"description": "light pink theme with blue accents for tidal luna, tested on windows-11.
 originally an older version of Interstellar_1's very nice light theme but i (aya) edited the colors and added/messed-up
 some stuff.
 
@@ -1534,7 +1534,8 @@ button._baseButton_15fc215:nth-of-type(2):active
 ._fx_e9c441f.css-75d7zy > ._icon_77f3f89 > use
 ,._feed_412931c > div > ._cardContainer_092d53a > div._card_039393f > ._card_38c6c04 > ._aspectRatio1x1_8faaf4e._imageContainer_c0c79a9 > ._overlay_91ba65b > ._playButtonBottomRight_81dad72._playButtonContainer_5ab95ff > ._notCircleIcon_dad7d82._iconButton_4b3ed40._noPadding_9cb3eea > ._icon_77f3f89 > use
 ,._playIcon_0f33a69._icon_77f3f89 > use
-,._notCircleIcon_dad7d82._iconButton_4b3ed40._noPadding_9cb3eea > ._icon_77f3f89 > use{
+,._notCircleIcon_dad7d82._iconButton_4b3ed40._noPadding_9cb3eea > ._icon_77f3f89 > use
+,._aspectRatio1x1_8faaf4e._imageContainer_c0c79a9 > ._overlay_91ba65b > ._favoriteButtonContainer_9320e1a > ._button_c372e89 > ._icon_77f3f89>use{
     fill: rgba(255, 177, 241, .99);
     transition: 000ms;
 }
@@ -1542,7 +1543,7 @@ button._baseButton_15fc215:nth-of-type(2):active
 ._fx_e9c441f.css-75d7zy
 ,
 ._playButtonBottomRight_81dad72._playButtonContainer_5ab95ff > ._notCircleIcon_dad7d82._iconButton_4b3ed40._noPadding_9cb3eea
-,._playButton_1bf40b3._small_05d59bf._primary_7ac4b44._button_94c5125{
+,._playButton_1bf40b3._small_05d59bf._primary_7ac4b44._button_94c5125,._aspectRatio1x1_8faaf4e._imageContainer_c0c79a9 > ._overlay_91ba65b > ._favoriteButtonContainer_9320e1a > ._button_c372e89{
     transition: 0ms;
     background-color: #0c064ac4;
 }
@@ -1556,6 +1557,7 @@ button._baseButton_15fc215:nth-of-type(2):active
 ._fx_e9c441f.css-75d7zy:hover
 ,._playButtonBottomRight_81dad72._playButtonContainer_5ab95ff > ._notCircleIcon_dad7d82._iconButton_4b3ed40._noPadding_9cb3eea:hover
 ,._playButton_1bf40b3._small_05d59bf._primary_7ac4b44._button_94c5125:hover
+,._aspectRatio1x1_8faaf4e._imageContainer_c0c79a9 > ._overlay_91ba65b > ._favoriteButtonContainer_9320e1a > ._button_c372e89:hover
 {
     background-color: #00000000;
     background-image: linear-gradient(155deg,var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play0),var(--play1), var(--play1), var(--play2),var(--play1), var(--play1), var(--play2),var(--play1), var(--play1), var(--play2)
