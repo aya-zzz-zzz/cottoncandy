@@ -4723,14 +4723,13 @@ font-weight:500;
     background-color: #fdc2ff;
     padding: .55em;
 border-radius: 1.9em;
-    margin-right: -.4em;
-    transform: scale(1.0);
+ 
 }
 ._artistVariant_63c8c96:hover{
     background-color: #fdb3ff;
-    padding: .4em;
-border-radius: 2.3em;
-    transition: 90ms;
+  
+border-radius: 2.7em;
+    transition: 290ms;
     
 }
 ._artistVariant_63c8c96._card_38c6c04{
@@ -4781,4 +4780,3 @@ border-radius: 2.3em;
 }
 	
   
-
