@@ -13,12 +13,10 @@ some stuff."
 button._container_eca1840{
     background-color: rgba(105, 153, 255, 0.396);
 }
-[data-track--page-id="eyJwIjoiNTVlOWE1NGUtNGNmNS00MWI2LTg4NzQtMzNhNDk4ZTI0ZjljIiwicFYiOjZ9"]{
+
 ._defaultStyles_a1b9da9 .tidal-ui__hscroll .tidal-ui__occlusion{
  
     padding-left: 2em;
-}
-
 }
 
 
@@ -891,6 +889,10 @@ tr._rowContainer_ebb4cfc:hover{
 ._playButtonCentered_0941dc7._playButtonContainer_5ab95ff > ._notCircleIcon_dad7d82._iconButton_4b3ed40._noPadding_9cb3eea:hover{
     background-color: rgba(5, 0, 19, 0.916);
 
+}
+._feed_412931c > div > ._cardContainer_8d57d95{
+column-gap: 1.02em!important;
+	padding-top: 1em;
 }
 
 ._cardContainer_092d53a{
@@ -4747,26 +4749,21 @@ border-radius: 2.3em;
     background-color: #0000;
 }
 
-[class="css-14h586 _fxContainer_c9d502b"]{
-    transform: scale(1.11);
-}
 
 
 ._container_aab70e3{
-     min-height: 120%;
-	padding: .45em;
+	padding: .5em;
 	padding-right: .75em;
 	padding-left: .67em;
-	max-width: 84%;
+	max-width: 95.5%;
+	transform: translatex(.1em);
 	margin: auto;
 }
-._container_aab70e3:hover
-,._suggestedItemContainer_35ea483:hover{
+._container_aab70e3:hover{
 	border-radius: 1em;
 	 background-image: linear-gradient(144deg,var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo),var(--voo), var(--voo),var(--goo));
 	 background-size: 6000% 6000%;
     animation: gradient 225s cubic-bezier(.59,.19,.39,.8) infinite;
-  
 }
 :root{
     --voo: #f5adff;
@@ -4775,30 +4772,13 @@ border-radius: 2.3em;
 
 
 
-
-
-._container_aab70e3{
+[class="_container_aab70e3"]{
 	[class="_actions_3b2b8f9"]:hover{
 		button > svg > use{
 			fill: white;
-            transition: 300ms;
 		}
 	}
 }
-
-[data-test="suggested-tracks"]{
-._button_a3412d0:hover
-    ,._addButton_fd3eee5:hover{
-      ._icon_77f3f89 {
-    fill: white !important;
-     transition: 300ms;
-}
-    }
-}
 	
-  [id="playQueueSidebar"]{
-    padding-top: 3em;
-   
-._header_f4bacf5{
-    display:none;
-}}
+  
+
