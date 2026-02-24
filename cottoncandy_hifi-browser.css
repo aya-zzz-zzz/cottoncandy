@@ -16,7 +16,9 @@ transform: translateX(-1.1em);
 }
 
 /*radiant*/
-
+[class="rl-wbw-active"]{
+       padding-bottom: 233em!important;
+}
 
 .sticky-lyrics-trigger{
     color: black;
