@@ -16,6 +16,15 @@ transform: translateX(-1.1em);
 }
 
 /*radiant*/
+.rl-dual-side .rl-wbw-line.rl-singer-right{
+    padding-left: 0em;
+}
+.rl-dual-side .rl-wbw-line.rl-singer-left{
+    padding-right: 0em;
+}
+.rl-dual-side .rl-wbw-line.rl-singer-right.rl-wbw-line-active {
+    padding-right: .2em!important;
+}
 [class="rl-wbw-active"]{
        padding-bottom: 233em!important;
 }
