@@ -1094,6 +1094,11 @@ div._image_7ba9b97:nth-of-type(2),div._image_7ba9b97:nth-of-type(4){
 use[href="#general__heart-filled"]{
     fill: rgb(255, 96, 232);
 }
+[class="_actionContainer_5bb1c14"]{
+    use[href="#general__heart-filled"]{
+    fill: rgb(255, 96, 232)!important;
+}
+}
 ._switch_93e68c7
 ,._unchecked_a1bcc16._label_12bd8cc
  {
@@ -3168,7 +3173,7 @@ box-shadow: none !important;
 
 
 /*yellow*/
-._max_3cdedd4._pill_e5857e5,
+._max_3cdedd4._pill_e5857e5,.wave-badge-color-max,
 ._wave-badge-color-max_1oxl7_22._wave-text-badge-bold_1jtlh_99._wave-badge-text_1oxl7_32._wave-badge_1oxl7_1{
     color: #00010ff5;
     background-image: linear-gradient(var(--rotate),#ffcafd,#ffbef4, #ffb0eb
@@ -3181,14 +3186,14 @@ box-shadow: none !important;
     color: #00010ff5;
     background-image: linear-gradient(155deg, #ffa0a000, #fff3da00);
 }
-._high_bfbd048._pill_e5857e5,
+._high_bfbd048._pill_e5857e5,.wave-badge-color-high,
 ._wave-badge-color-high_1oxl7_17._wave-text-badge-bold_1jtlh_99._wave-badge-text_1oxl7_32._wave-badge_1oxl7_1{
     color: #170024;
     background-image: linear-gradient(var(--rotate),#c3eafc, #b1cfff , #bfbeff);
     animation: rotate-gradient 10s cubic-bezier(.33,.48,.63,.47) infinite;
 }
 /*none*/
-._pill_e5857e5 {
+._pill_e5857e5,.wave-badge-color-low {
     background-image: linear-gradient(var(--rotate), #ffb8ea, #ecedfff6);
     color: #170024!important;
     background-size: 100% 100%;
