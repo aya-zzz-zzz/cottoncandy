@@ -16,7 +16,15 @@ transform: translateX(-1.1em);
 }
 
 /*radiant*/
-
+.rl-dual-side .rl-wbw-line.rl-singer-right{
+    padding-left: 0em;
+}
+.rl-dual-side .rl-wbw-line.rl-singer-left{
+    padding-right: 0em;
+}
+.rl-dual-side .rl-wbw-line.rl-singer-right.rl-wbw-line-active {
+    padding-right: .2em!important;
+}
 [class="hide-ui-button"]{
         background-color: #00000000!important;
     background-image: linear-gradient(120deg, #0d07459b, #100731a5)!important;
