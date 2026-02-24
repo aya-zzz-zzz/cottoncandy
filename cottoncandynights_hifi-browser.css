@@ -330,9 +330,19 @@ transform: scale(1.00)  translatey(-2.39em);
     transform: translateY(-1em) translateX(.1em);
 }
 
-
+/*luna*/
+[class="MuiContainer-root MuiContainer-maxWidthMd css-1oyb6px"]{
+   margin-bottom: 30em!Important;
+   margin-top: 1EM;
+}
 [class="MuiContainer-root MuiContainer-maxWidthLg css-sot3eg"]{
-   margin-bottom: 100em;}
+      background-image: linear-gradient(92.7deg, rgba(188, 189, 255, 0.884) , rgba(255, 193, 252, 0.931)) !important;
+    min-width: 102%;
+  margin-top: 1em;
+      padding: 2.8em;
+        padding-top: 2.3em;
+        border-radius: 1em;
+}
 /* =========================================================..............................................................
               end of windows-specific stuff
   ---------------------------------------------------------------- ========================================================= */
