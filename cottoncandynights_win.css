@@ -16,6 +16,10 @@ transform: translateX(-1.1em);
 }
 
 /*radiant*/
+#tab\:rl\:mm9qvzm8 > div > svg > path{
+fill: white;
+}
+
 
 [class="hide-ui-button"]{
         background-color: #00000000!important;
