@@ -7,6 +7,17 @@
  * some stuff."
  * }
  */
+@media (min-width: 2400px){
+ [class="_cardContainer_8d57d95"]{
+     --numberOfCardsToDisplay: 9!important;
+}
+    }
+@media (min-width: 2700px){
+ [class="_cardContainer_8d57d95"]{
+     --numberOfCardsToDisplay: 10!important;
+}
+    }
+
 [class="rl-wbw-active"]{
     padding-bottom: 66em!important;
 }
