@@ -7,7 +7,9 @@ originally an older version of Interstellar_1's very nice light theme but i (aya
 some stuff."
 * }
 */
-
+[class="rl-wbw-active"]{
+    padding-bottom: 66em!important;
+}
 [class^="_bar"]{
 transform: translateX(-1.1em);
 [class="_button_8536ec0"],[class="_closeButton_560a9f3 _button_8536ec0"]{
