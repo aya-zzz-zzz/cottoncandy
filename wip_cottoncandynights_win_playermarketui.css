@@ -920,7 +920,12 @@ transform: translateX(.5em)!important;transition: 0!important;}}
 /* =========================================================
    WINDOWS TYPE SHIT
    ========================================================= */
-
+._background_a548b6d{
+    transform: translateY(2.06em);
+}
+div._wrapper_88ee7cb{
+    height:438px!important;
+}
 .mainContent
 {padding-bottom: var(--miniPlayerHeight);margin-top: 6em;}/*4em margin-top for linux/browser*/
 #mainHeader {background-color: #080018c7!important;backdrop-filter: blur(1em) brightness(.7) saturate(1.5)!important;height: 2em;}/*0em height and invisible for linux/browser*/
@@ -1062,6 +1067,7 @@ button._button_b988d60._medium_c24bed2._clean_af1ce7e._button_94c5125:hover{._ic
 ._titleContainer_9fba00e{transform: scale(1.2) translatex(0.29em) translatey(-.01em);}
 
 /*bio bg*/
+
 #main > div > div > div._wrapper_88ee7cb._header_b1aed07 > div._headerContainer_d8ee9b4 > div._dataContainer_108ce86 > div > div:nth-child(3){
     background-color: #0e032896;
     padding: .2em;padding-left: 1em; padding-right: 1em; border-radius: 1em;transform: translatex(-.9em) translatey(-.13em);max-width: 37.3em;}
