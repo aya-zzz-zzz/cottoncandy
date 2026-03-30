@@ -441,7 +441,7 @@ time._text_3826629{
     border-width: 2px;
      border-color: #c8c3ffe3;
          box-shadow: inset 0px 0px 2.7em #c9c3ffc9;
-         ._badge_57d1ccb  {filter: sepia(1) saturate(30) hue-rotate(325deg) brightness(.7) invert()}
+         ._badge_57d1ccb  {filter: sepia(1) saturate(30) hue-rotate(325deg) brightness(.7) invert()!important;}
 }
 
 
@@ -484,7 +484,7 @@ transition: 7ms;
 [class="_player_f60dc38 nowPlayingVisible _notFullscreen_1b39238"],
 [class="_player_f60dc38 nowPlayingVisible"]
 ,[class="_player_f60dc38 nowPlayingVisible _controlsHidden_cc249f0"]{
-._badge_57d1ccb  {filter: sepia(1) saturate(32) hue-rotate(335deg) brightness(.77) invert() opacity(.9)}
+._badge_57d1ccb  {filter: sepia(1) saturate(32) hue-rotate(335deg) brightness(.77) invert() opacity(.9)!important;}
 ._badge_6dd31c7{filter: saturate(1.17) brightness(.98) opacity(.98) contrast(.99);}
 ._gradientMax_14a308b{border-color: rgba(248, 165, 255, 0.922);
     box-shadow: inset 0px 0px 1.3em #ff9ceb;}
@@ -2219,7 +2219,7 @@ column-gap: 1.02em!important;
 
 /* Card background hover colour */
 [class="_card_38c6c04"]:hover{
-._badge_57d1ccb  {filter: sepia(1) saturate(30) hue-rotate(325deg) brightness(.75) invert(); transition: 400ms;}
+._badge_57d1ccb  {filter: sepia(1) saturate(30) hue-rotate(325deg) brightness(.75) invert(); transition: 400ms!important;}
    ._imageWrapper_aecc0c5 img{
         transform: scale(1.02);
         transition: 1100ms;
@@ -3131,7 +3131,7 @@ margin-top: 1.75em!important;
 }
 
 ._item_235a32d:hover{
-._badge_57d1ccb  {filter: sepia(1) saturate(30) hue-rotate(325deg) brightness(.75) invert(); transition: 400ms;}
+._badge_57d1ccb  {filter: sepia(1) saturate(30) hue-rotate(325deg) brightness(.75) invert(); transition: 400ms!important;}
 ._marketIcon_1664p_1._singleColor_1664p_6 *{
     fill: #0c0017ba!important;
 }
@@ -3647,7 +3647,7 @@ div._feed_412931c > div._list_eaac7af > div._container_2ff27fa > a > div > img
         color: rgba(255, 236, 253, .9);
         transition: 300ms;
     }
-    ._badge_57d1ccb  {filter: sepia(1) saturate(0) hue-rotate(325deg) brightness(0) invert(); transition: 400ms;}
+    ._badge_57d1ccb  {filter: sepia(1) saturate(0) hue-rotate(325deg) brightness(0) invert(); transition: 400ms!important;}
     .quality-tag{
         filter: brightness(1.03) saturate(1.02);
          transition: 400ms;
