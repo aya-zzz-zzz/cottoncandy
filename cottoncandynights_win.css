@@ -951,11 +951,10 @@ div._marketText_1lyag_1._display10_1lyag_39._text_4a89397._hasCues_15d8b83 > spa
     text-shadow: 0 0 var(--rl-glow-inner, 2px) #fabbff, 0 0 var(--rl-glow-outer, 20px) #e0b7ff !important;}
 /*word by word lyrics ("span.rl-wbw-word" controls lyrics style for lyrics w/ no syl/line support)*/
 span.rl-wbw-word.rl-wbw-active{
-    color: #f5c7ff!important;
-    text-shadow: 0px 0px 14px #e08bff88!important;}
+    color: #f8d7ff!important;
+    text-shadow: 0px 0px 14px #e08bff9e!important;}
 /*style for lyrics w/ no syl/line support*/
-[class="rl-wbw-line"]{
-   span.rl-wbw-word{color: rgba(247, 225, 255, 0.791)!important;}}
+
 
    
 /*lyricseverywhere*/
