@@ -992,9 +992,9 @@ body.rl-dropdown-open [data-test=toggle-lyrics]{background-color: none;}
 
 /*inactive hover*/
 [class="_marketButton_1l1bl_1 _secondary_1l1bl_7 _small_1l1bl_3"]:hover{
- svg > path:nth-child(1){fill: rgb(248, 151, 255)!important;transition: 200ms!important;}
-  svg > path:nth-child(2){fill: rgb(255, 249, 161)!important;transition: 200ms!important;}
-   svg > path:nth-child(3){fill: rgb(180, 224, 255)!important;transition: 200ms!important;}}
+ svg > path:nth-child(1){fill: rgb(248, 143, 255)!important;transition: 200ms!important;}
+  svg > path:nth-child(2){fill: rgb(255, 230, 69)!important;transition: 200ms!important;}
+   svg > path:nth-child(3){fill: rgb(157, 214, 255)!important;transition: 200ms!important;}}
 /*scales down lyrics slightly to fit better in box*/
 [class="rl-wbw-active"]{padding-bottom: 66em!important;}
 /*cover-everywhere*/
