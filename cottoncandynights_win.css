@@ -964,8 +964,9 @@ div._marketText_1lyag_1._display10_1lyag_39._text_4a89397._hasCues_15d8b83 > div
   ----------------------------------------------------------------========================================================= */
 /*radiant*/
 /*brings back fullscreen button*/
-button._marketButton_1l1bl_1._tertiary_1l1bl_8._small_1l1bl_3._iconOnly_1l1bl_1._iconButton_fe68160._fullscreenButton_109e50d{
-    display: block!important;}
+button._marketButton_1l1bl_1._tertiary_1l1bl_8._small_1l1bl_3._iconOnly_1l1bl_1._iconButton_fe68160._fullscreenButton_109e50d
+,button._marketButton_1l1bl_1._tertiary_1l1bl_8._small_1l1bl_3._iconOnly_1l1bl_1._iconButton_fe68160._fullscreenButton_109e50d:hover{
+    display:flex!important;}
 /*lyrics button added-icons*/
 [data-test=toggle-lyrics] .sticky-lyrics-trigger{svg > path:nth-child(1){transform: scale(1.0);}svg > path:nth-child(2){transform: scale(1.08);}svg > path:nth-child(3){transform: scale(1.03);}}
 [data-test=toggle-lyrics][aria-pressed=true] .sticky-lyrics-trigger::before {
@@ -979,7 +980,7 @@ body.rl-dropdown-open [data-test=toggle-lyrics]{background-color: none;}
 /*lyrics button added-icon color*/
 .sticky-lyrics-trigger{color: rgba(255, 255, 255, 0.901)!important;}
 /*active*/
-[data-test=toggle-lyrics][aria-pressed=true] .sticky-lyrics-trigger{
+[data-test=toggle-lyrics]{
       svg > path:nth-child(1){fill: rgb(239, 181, 255)!important;transition: 200ms!important;}
   svg > path:nth-child(2){fill: rgb(255, 243, 176)!important;transition: 200ms!important;}
    svg > path:nth-child(3){fill: rgb(190, 203, 255)!important;transition: 200ms!important;}}
@@ -988,11 +989,10 @@ body.rl-dropdown-open [data-test=toggle-lyrics]{background-color: none;}
       svg > path:nth-child(1){fill: rgb(82, 0, 140)!important;transition: 100ms!important;}
   svg > path:nth-child(2){fill: rgb(34, 11, 0)!important;transition: 100ms!important;}
    svg > path:nth-child(3){fill: rgb(17, 40, 132)!important;transition: 100ms!important;}}
-[class="_marketButton_1l1bl_1 _primary_1l1bl_6 _small_1l1bl_3"]{
-    div{color: rgb(255, 255, 255) !important;  }}
+
 /*inactive hover*/
 [class="_marketButton_1l1bl_1 _secondary_1l1bl_7 _small_1l1bl_3"]:hover{
- svg > path:nth-child(1){fill: rgb(249, 162, 255)!important;transition: 200ms!important;}
+ svg > path:nth-child(1){fill: rgb(248, 151, 255)!important;transition: 200ms!important;}
   svg > path:nth-child(2){fill: rgb(255, 249, 161)!important;transition: 200ms!important;}
    svg > path:nth-child(3){fill: rgb(180, 224, 255)!important;transition: 200ms!important;}}
 /*scales down lyrics slightly to fit better in box*/
