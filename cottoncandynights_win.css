@@ -1061,11 +1061,6 @@ span.rl-wbw-word.rl-wbw-active{
     backdrop-filter: blur(10px) brightness(.9) saturate(1.6);font-weight: 700 !Important;
     opacity: .98!important;font-size: 110%!important;font-family:system-ui, sans-serif;
     border-radius: 3em!important; }
-/*nextup*/
-.upnext-container{background-color: rgba(16, 8, 58, 0.251)!important;border-style: none!important;}
-.upnext-container:hover{background-color: rgba(16, 8, 58, 0.251)!important;}
-.upnext-artist,.upnext-label{color: rgb(225, 236, 255)!important;}
-.upnext-title{color: rgb(237, 217, 255)!important;}
 
 /* =========================================================..............................................................
         LUNALLENA-INSPIRED HEADER-REMOVAL-SYSTEM & HEADER STYLES (ie TOP SEARCH, NAV BUTTONS, & PROFILE BUTTON)
@@ -1161,7 +1156,7 @@ height: calc(100% - (var(--miniPlayerHeight)*2.15 ))!important; transition: 310m
 padding-top: 1.9em;}
 
 /*top bar and buttons*/
-[class^="_bar"]{width:99.4%;}
+[class^="_bar"]{width:99.5%!important;}
 [class*="_bar_"] {margin-bottom: -2.5em; background: transparent !important;
 div[class*="_title_"] {display: none !important;}}
 div[class*="_bar_"] button[class*="_button_"]{
