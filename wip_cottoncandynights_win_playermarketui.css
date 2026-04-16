@@ -1141,7 +1141,7 @@ transform: translateX(.5em)!important;transition: 0!important;}}
 /*now-playing fullscreen adjustments*/
  ._panelWrapper_5734a06._panelWrapperActive_404b577 {
         transition: 300ms;
-        height: calc(100% - (var(--miniPlayerHeight)*2.16 ));
+        height: calc(100% - (var(--miniPlayerHeight)*1.82 ))!important;
         margin-top: 5.85em;}
 /*fullscreen no footer*/
 .is-fullscreen ._fullscreen_236d61b, .is-compact-mode ._fullscreen_236d61b{
