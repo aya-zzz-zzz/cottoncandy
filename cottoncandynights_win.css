@@ -695,6 +695,51 @@ background-size: 800px 800px;background-position: 0 0,400px 400px; }
     padding: .2em;padding-left: 1em;border-radius: .78em;}
 
 /*feed background and stuff*/
+
+[class="_feed_412931c"]{
+    [class="_container_88ae340"]{
+    margin-bottom: -1em!important;
+}
+    ._secondary_1l1bl_7{
+    background-color: #00000000;
+    background-image: linear-gradient(120deg, #433c8135, #34169f45);
+    animation: rotate-gradient 22s cubic-bezier(.33,.48,.63,.47) infinite;transform: scale(1.049);border-style:solid;
+    box-shadow: inset 0px 0px .85em #13052d18,  0px 0px .85em #dbacff1b;
+    border-color: #13052d18; }
+._secondary_1l1bl_7:hover{
+    color: rgb(244, 206, 255);
+    text-shadow: 0px 0px 5px rgba(244, 194, 255, 0.225);
+    background: linear-gradient(170deg,
+                #10073145,#10073145,
+                #10073191,#10073145,
+                rgba(34, 0, 93, 0.904), rgba(34, 0, 93, 0.778),
+                rgba(34, 0, 93, 0.751), rgba(34, 0, 93, 0.778),
+                rgba(34, 0, 93, 0.818));
+    background-size: 340% 340%;animation: buttongradient2 620s cubic-bezier(.24,.48,.67,.56) ;transition: 00ms;border-style:solid;
+    box-shadow: inset 0px 0px .85em #13052d18,  0px 0px .85em #653aff77;
+    border-color: #170734b1;}
+/*primary (active) buttons*/
+._primary_1l1bl_6{
+    color: #fdf2ff!important;
+    text-shadow: 0px 0px 5px #03001349;
+    background-color: #0000!important;
+    background-image: linear-gradient(var(--rotate),#c972ff,#d279ff,
+    #f090ff,#ff87fd,rgb(255, 154, 253),#ffa7ef);
+    background-size: 220% 220%;
+    animation: rotate-gradient 15s cubic-bezier(.29,.44,.67,.56) infinite;
+    border-style:solid;
+    border-color: #f08fff;
+    box-shadow: inset 0px 0px .85em #f194ff,  0px 0px .45em #1d053b30; }}
+._primary_1l1bl_6:hover {
+        color: #050017bf !important;
+        text-shadow: 0px 0px 5px #0300173c;
+        box-shadow: inset 0px 0px .85em #f194ffb7, 0px 0px .65em #15022351;
+        border-color: #e68aff;
+        background: linear-gradient(170deg, #10073145, #10073145, #10073145, #10073145,
+         #2c0d4763, #de86d3a5, #f79cffe6, rgb(255, 167, 254), #ffb8f2);
+        background-color: #0000;background-size: 340% 340%;animation: buttongradient2 620s cubic-bezier(.24, .48, .67, .56)!IMPORTANT;animation-iteration-count: 1;transition: 300ms;
+}
+
 @media (min-width: 2400px){
  [class="_cardContainer_8d57d95"]{
      --numberOfCardsToDisplay: 9!important;
@@ -719,7 +764,7 @@ background-size: 800px 800px;background-position: 0 0,400px 400px; }
    transform: translateY(1.5em);
 	border-radius: 1em;
  	min-width:  calc(80vw - (var(--sidebarWidth) * .8) - (var(--playQueueWidth) *.5)  )!important;
-    padding-top: .5em;
+    padding-top: 1.225em;
     padding-left: 2.6em;
     padding-right: 2.05em;
     padding-bottom: 0em;
@@ -1087,10 +1132,17 @@ transform: translateX(.5em)!important;transition: 0!important;}}
    WINDOWS TYPE SHIT
    ========================================================= */
 /*artist-page stuff*/
+
+
+
 ._background_a548b6d { transform: translateY(2.3em);  z-index: 0;max-width: 45%!important;}
 ._detailContainer_32ed9f5,._actionContainer_7bd364b{transform: translateY(-4em) translateX(.5em);}
 ._moduleContainer_c7ad3d9{transform: translateY(-.9em)!IMPORTANT;}
 /*now-playing fullscreen adjustments*/
+ ._panelWrapper_5734a06._panelWrapperActive_404b577 {
+        transition: 300ms;
+        height: calc(100% - (var(--miniPlayerHeight)*2.16 ));
+        margin-top: 5.85em;}
 /*fullscreen no footer*/
 .is-fullscreen ._fullscreen_236d61b, .is-compact-mode ._fullscreen_236d61b{
   
@@ -1224,6 +1276,12 @@ A
 /* ==========================================.............................................
     ARTIST PAGE
   -----------------------------------------------======================================== */
+[data-test="artist-profile"]{
+[class="_buttons_ff12873"]{
+    filter: brightness(3);
+  }
+}
+  
 ._actionContainer_7bd364b > ._buttons_ff12873 > ._link_6a45a19._button_b988d60{
     transform: translatey(.09em);}
 
@@ -2160,6 +2218,9 @@ div._smallHeader_1c02955._showHeader_4930400::before,div._smallHeader_f2c3791._s
 
 
 /* sidebar 3.0*/
+._thumbnail_f82abfa img{
+    transition: 0ms!Important;
+}
 ._sidebarWrapper_2f256ce:after {background: #0000;}
 
 ._title_7ea05f1._medium20_1lyag_192._marketText_1lyag_1{color: #fff;}
