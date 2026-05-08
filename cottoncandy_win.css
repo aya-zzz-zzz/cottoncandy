@@ -1390,7 +1390,7 @@ filter:  brightness(1.1) saturate(1);
  rgb(var(--cover-Vib1), .125),color-mix(in srgb, rgb(var(--cover-Vib1),.09) 50% , rgb(var(--cover-Vib2), .09)50%), rgb(var(--cover-Vib2), .125));
     animation: rotate-gradient 9s cubic-bezier(.33,.48,.63,.47) infinite;
     transition: 300ms!important;
-    box-shadow: 0px 0px .8em color-mix(in srgb, rgb(var(--cover-DMut1), .2) 20% , rgba(0, 0, 0, 0.2)  80%) ,
+    box-shadow: 0px 0px .8em color-mix(in srgb, rgb(var(--cover-Vib1), .2) 50% , rgba(0, 0, 0, 0.2)  50%) ,
     inset 0px 0px 1.3em  color-mix(in srgb, rgb(var(--cover-DVib1),.31) 30% , rgba(0, 0, 0, 0.31) 70%)  ;
 ._icon_77f3f89>use{fill:  color-mix(in srgb, rgb(var(--cover-DVib1), 1) 10% ,black  90%)!important;}
     color: rgb(0, 0, 0);}
@@ -1731,7 +1731,7 @@ div._marketText_1lyag_1._display10_1lyag_39._text_4a89397._hasCues_15d8b83 > spa
     color-mix(in srgb, var(--v1)  73% ,rgb(255, 255, 255) 27%),
     color-mix(in srgb, var(--v1)  70% ,rgb(255, 255, 255) 30%));
     box-shadow: inset 0px 0px 3em rgb(var(--cover-LVib1),.5), 
-     0px 4px 1.75em color-mix(in srgb, white 15% ,rgb(var(--cover-LVib1),.2) 85%);
+     0px 4px 1.75em color-mix(in srgb, white 20% ,rgb(var(--cover-LVib1),.2) 80%);
     background-size: 350% 350%;animation: rotate-gradient 35s cubic-bezier(.29,.44,.67,.56) infinite;transition: 400ms; }
 ._disableUnderline_8e517ad._link_86815a7 > ._shortcutItem_6c8e7b4:hover{
     background-size: 350% 350%;animation: rotate-gradient 35s cubic-bezier(.29,.44,.67,.56) infinite;transition: 400ms; }
@@ -1744,7 +1744,7 @@ div._marketText_1lyag_1._display10_1lyag_39._text_4a89397._hasCues_15d8b83 > spa
     color-mix(in srgb, var(--v2)  73% ,rgb(255, 255, 255) 27%),
     color-mix(in srgb, var(--v2)  70% ,rgb(255, 255, 255) 30%));
     box-shadow: inset 0px 0px 3em rgb(var(--cover-LVib2),.5), 
-    0px 4px 1.75em color-mix(in srgb, white 15% ,rgb(var(--cover-LVib1),.2) 85%);
+   0px 4px 1.75em color-mix(in srgb, white 20% ,rgb(var(--cover-LVib1),.2) 80%);
     background-size: 300% 355%;animation: rotate-plu 20s cubic-bezier(.29,.44,.67,.56) infinite; }
 ._disableUnderline_8e517ad._link_0c5cc7e > ._shortcutItem_6c8e7b4:hover{
     background-size: 300% 355%;animation: rotate-plu 20s cubic-bezier(.29,.44,.67,.56) infinite; }
@@ -1758,7 +1758,7 @@ div._marketText_1lyag_1._display10_1lyag_39._text_4a89397._hasCues_15d8b83 > spa
     color-mix(in srgb, var(--v2)  80% ,rgb(255, 255, 255) 20%),
     color-mix(in srgb, var(--v2)  81% ,rgb(255, 255, 255) 19%));
      box-shadow: inset 0px 0px 3em rgb(var(--cover-Vib2),.4), 
-   0px 4px 1.75em color-mix(in srgb, white 15% ,rgb(var(--cover-LVib1),.2) 85%);
+   0px 4px 1.75em color-mix(in srgb, white 20% ,rgb(var(--cover-LVib1),.2) 80%);
     background-size: 600% 600%;animation: gradient 30s cubic-bezier(.79,.54,.25,.51) infinite;transition: 123ms;}
 ._disableUnderline_8e517ad._link_5308097 > ._shortcutItem_6c8e7b4:hover,
 ._disableUnderline_8e517ad._link_b187c17 > ._shortcutItem_6c8e7b4:hover,._shortcutItem_6c8e7b4:hover{
