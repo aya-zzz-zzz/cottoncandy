@@ -401,7 +401,7 @@ background-size: 800px 800px;background-position: 0 0,400px 400px;}
 ._mainContainer_6519c30{
     background-color: color-mix(in srgb,rgb(var(--cover-LVib1)) 0%, white 100%);
     background-image: 
-linear-gradient(180deg, rgba(255, 255, 255, 0.275), rgba(255, 255, 255, 0.35)),
+linear-gradient(180deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)),
 radial-gradient(ellipse at top left,color-mix(in srgb,rgb(var(--cover-Vib1),0.25) 95%, rgb(var(--cover-DVib1),0.25) 5%),rgb(var(--cover-DMut1),0.02)70%),
 radial-gradient(circle at bottom right,rgb(var(--cover-Vib1),.2),transparent 53%),
 radial-gradient(circle at bottom left,rgb(var(--cover-Vib1),.2),transparent 53%),
