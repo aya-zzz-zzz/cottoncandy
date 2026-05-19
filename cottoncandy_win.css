@@ -722,9 +722,9 @@ animation: rotate-gradient 6s cubic-bezier(.33,.48,.63,.47) infinite;}
   [class="_nativeRowWrapper_20e35be"]{
 ._notCircleIcon_dad7d82._iconButton_4b3ed40._noPadding_9cb3eea._playButton_4942431{ transform: scale(.8);border-radius: .7em!important; }
 ._notCircleIcon_dad7d82._iconButton_4b3ed40._noPadding_9cb3eea._playButton_4942431 > ._icon_77f3f89 > use{
-    fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1) 45%, rgb(0, 0, 0) 55%); transform: scale(1.05);}
+    fill: color-mix(in srgb, rgb(var(--cover-DVib2), 1) 45%, rgb(0, 0, 0) 55%); transform: scale(1.05);}
 ._notCircleIcon_dad7d82._iconButton_4b3ed40._noPadding_9cb3eea._playButton_4942431:hover{
-    background-color: color-mix(in srgb, rgb(var(--cover-Vib1), 1) 45%, rgb(0, 0, 0) 55%); transition: 225ms;
+    background-color: color-mix(in srgb, rgb(var(--cover-DVib2), 1) 45%, rgb(0, 0, 0) 55%); transition: 225ms;
 ._icon_77f3f89 > use{
     fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1) 45%, rgb(255, 255, 255) 55%); transition: 150ms;}}}
  /*tracklist header text color*/
