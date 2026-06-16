@@ -1976,3 +1976,6 @@ span._metaItem_ed501cd.wave-text-capital-demi{font-weight: 700!important;font-si
 ._marketIcon_1664p_1._singleColor_1664p_6 * {
     fill: black !important;
 }
+/*brings back fullscreen button in radiant lyrics; a little buggy when rl is loading lyrics for a song tidal doesn't have*/
+div._actionButtons_c44ccc7 > button._marketButton_1l1bl_1._tertiary_1l1bl_8._small_1l1bl_3._iconOnly_1l1bl_1._iconButton_fe68160._fullscreenButton_109e50d
+{display:inline !important;}
